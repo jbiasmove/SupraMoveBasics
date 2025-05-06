@@ -1,0 +1,16 @@
+[package]
+name = "simple_counter"
+version = "1.0.0"
+authors = []
+
+[addresses]
+jbias = "0xff0c69aa78a932fb7a4f86da8a48c6d585573206dd4039c4b3087fa5f1d53648"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
